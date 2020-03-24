@@ -1,0 +1,90 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+<!--Navbar-->
+
+html{
+    scroll-behavior:smooth;
+}
+
+
+body{
+
+    margin:20px;
+
+}
+
+
+
+#mainNav {
+    
+    background-color: #fff !important;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    
+font-family: 'Oswald', sans-serif;
+color:#242424;
+margin-left:10px;
+}
+
+
+.navbar-light .navbar-nav .nav-link : hover {
+    
+color:#6D111A;
+    
+}
+
+
+
+
+<!--Carousel-->
+
+
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  
+  padding:25px;
+  padding-top: 10px;
+  height: auto;
+  width: auto;
+  
+}
+
+
+.carousel-item {
+  text-align: center;
+}
+
+
+  
+  #API {
+
+   height: auto;
+   width: auto;
+   padding: 15px;
+   padding-top: 25px;
+
+  }
+  
+
+  #Venues{
+
+padding: 15px;
+padding-top: 25px;
+margin: auto;
+
+  }
+
+#sagendaFrame{
+
+    padding:20px;
+    margin:20px;
+
+
+}
