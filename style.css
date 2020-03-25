@@ -10,56 +10,47 @@ html{
 }
 
 
-body{
+header{
 
-    margin:20px;
-
+  background-color:#f0f0f0;
+  font-family: 'Oswald', 'sans-serif';
 }
-
 
 
 #mainNav {
     
-    background-color: #fff !important;
-    margin-top: 20px;
+    background-color: #ba0d00 !important;
+    
     text-align: center;
 }
 
 .navbar-light .navbar-nav .nav-link {
     
 font-family: 'Oswald', sans-serif;
-color:#242424;
-margin-left:10px;
+color:#ffdedb;
+font-size: large;
+}
+
+.header-main{
+text-align: left;
+
+
+}
+
+.header-contact{
+
+  text-align: right;
 }
 
 
-.navbar-light .navbar-nav .nav-link : hover {
-    
-color:#6D111A;
-    
+<!--Cards-->
+
+.card-img-top{
+  width: 100%!important;
+  height: 200px!important;
+  object-fit: cover;
 }
 
-
-
-
-<!--Carousel-->
-
-
-.carousel-item,
-.carousel-inner,
-.carousel-inner img {
-  
-  padding:25px;
-  padding-top: 10px;
-  height: auto;
-  width: auto;
-  
-}
-
-
-.carousel-item {
-  text-align: center;
-}
 
 
   
@@ -68,23 +59,15 @@ color:#6D111A;
    height: auto;
    width: auto;
    padding: 15px;
-   padding-top: 25px;
+   padding-top: 65px;
 
   }
   
 
-  #Venues{
+  
 
-padding: 15px;
-padding-top: 25px;
-margin: auto;
+#main-footer{
 
-  }
-
-#sagendaFrame{
-
-    padding:20px;
-    margin:20px;
-
-
+  background-color: #ba0d00;
+  color: #ffdedb;
 }
