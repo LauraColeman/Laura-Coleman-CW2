@@ -10,7 +10,7 @@ html{
 }
 
 body{
-  background-color: #04000a;
+  background-color:#95a3a3 ;
 }
 
 
@@ -21,6 +21,7 @@ header{
   color: white;
   line-height: 1;
   position: relative;
+ 
 }
 
 
@@ -28,6 +29,8 @@ header{
 
   background-color: #494e6b;
   color: white;
+  font-family: 'Oswald', 'sans-serif';
+  padding:15px;
 }
 
 
@@ -46,14 +49,23 @@ header{
   
   }
   
+  
+
+
  #phone{
 
 line-height: 1;
 text-align: right;
-
+margin-right: 20px;
+margin-left: 20px;
+font-family: 'Oswald', 'sans-serif';
  }
 
+.bar-name{
 
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
 
 .navbar-light .navbar-nav .nav-link {
@@ -75,15 +87,31 @@ font-size: large;
   height: auto;
 }
 
+.card{
 
+  color: white;
+  font-family: 'Oswald', 'sans-serif';
+}
 
   
+#bottomContainer{
+
+  object-fit: cover;
+  width: auto;
+  height: auto;
+  padding: 20px;
+  margin-bottom: 50px;
+  
+  
+  
+}
+
   #API {
 
    height: auto;
    width: auto;
    padding: 15px;
-   padding-top: 65px;
+   padding-top: 20px;
 
   }
   
@@ -106,6 +134,8 @@ font-size: large;
 
   padding: 20px;
   padding-top: 20px;
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
 }
 
 
@@ -114,6 +144,7 @@ font-size: large;
 .jumbotron {
   position:relative;
   overflow:hidden;
+
 }
 
 .jumbotron .container {
@@ -143,4 +174,3 @@ img.blur {
   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
 
 }
-

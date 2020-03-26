@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href=style.css>
+    <script src="https://cdn.jsdelivr.net/sharer.js/latest/sharer.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    
 
     
     <title>All Stars Sports Bars</title>
@@ -57,39 +60,42 @@
           
                                       <ul class="nav topnav"></ul>
                                       <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="index.html" id="navbardrop" data-toggle="dropdown">
+                                        <a class="nav-link dropdown-toggle" href="Venues.html" id="navbardrop" data-toggle="dropdown">
                                            Venues
                                         </a>
                                         <div class="dropdown-menu">
-                                            <a class="dropdown-item" href="#">Taunton</a>
-                                            <a class="dropdown-item" href="#">Bristol</a>
-                                            <a class="dropdown-item" href="#">Weston-Super-Mare</a>
-                                            <a class="dropdown-item" href="#">Exeter</a>
+                                            <a class="dropdown-item" href="venueT.html">Taunton</a>
+                                            <a class="dropdown-item" href="VenueB.html">Bristol</a>
+                                            <a class="dropdown-item" href="VenueW.html">Weston-Super-Mare</a>
+                                            <a class="dropdown-item" href="VenueE.html">Exeter</a>
                                         </div>
                                     </li>
                       
                          
           
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Live Sports</a>
+                              <a class="nav-link" href="LiveSports.html">Live Sports</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Events</a>
+                              <a class="nav-link" href="Events.html">Events</a>
                           </li>
                           <li class="nav item">
-                              <a class="nav-link" href="#">Food</a>
+                              <a class="nav-link" href="Food.html">Food</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Discounts</a>
+                              <a class="nav-link" href="Discounts.html">Discounts</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">FAQs</a>
+                            <a class="nav-link" href="Store.html">Store</a>
+                        </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="FAQ.html">FAQs</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Parties</a>
+                              <a class="nav-link" href="Parties.html">Parties</a>
                           </li>
                           <li class="nav-item">
-                              <a class="nav-link" href="#">Contact</a>
+                              <a class="nav-link" href="Contact.html">Contact</a>
                           </li>
                     
                 
@@ -102,7 +108,13 @@
 
             
         </div>
-    
+        <div class="social">
+          <a href="#" id="share-wa" class="sharer button"><i class="fa fa-2x fa-whatsapp"></i></a>
+      
+      
+      
+        <a href="#" id="share-fb" class="sharer button"><i class="fa fa-2x fa-facebook-square"></i></a>
+        <a href="#" id="share-tw" class="sharer button"><i class="fa fa-2x fa-twitter-square"></i></a>
         </nav>
       </header>
 
@@ -113,16 +125,16 @@
 <div class="jumbotron jumbotron-fluid bg-dark">
   
   <div class="jumbotron-background">
-    <img src="https://placeimg.com/2000/1000/nature" class="blur ">
+    <img src="https://placeimg.com/2000/1000/sports" class="blur ">
   </div>
 
   <div class="container text-white">
 
-    <h1 class="display-4">bars etc..</h1>
-    <p class="lead">Web Content.</p>
+    <h1 class="display-4">Welcome to All Stars Sports Bars!</h1>
+    <p class="lead">OPEN 10PM - LATE</p>
     <hr class="my-4">
-    <p>Text</p>
-    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    
+    <a href="FAQ.html"><button type="button" id="jumbo" class="btn btn-blue-grey">Learn more </button></a>
 
   </div>
   <!-- /.container -->
@@ -133,8 +145,8 @@
 
         <!--TopImage Cards-->
 
-        <div class="card-deck row no-gutters mt-4 mb-4" id="Cards">
-          <div class="card">
+        <div class="card-deck row no-gutters mt-4 mb-4 " id="Cards">
+          <div class="card row no-gutters bg-dark">
             <img class="card-img-top img-fluid" src="images/guy-playing-billiard-1967834_1920.jpg" alt="Pool Table">
             <div class="card-body">
               <h5 class="card-title">Live Sports</h5>
@@ -144,12 +156,12 @@
                   One? No problem. Football? You tell us which match and we'll hook your set up.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">View Sport Schedule</a>
+              <a href="LiveSports.html"><button type="button" class="btn btn-blue-grey">View Fixtures</button></a>
             </div>
           </div>
-          <div class="card row no-gutters">
+          <div class="card row no-gutters bg-dark">
             <img class="card-img-top img-fluid" src="images/pizza-2810589_1920.jpg" alt="Pizza">
-            <div class="card-body">
+            <div class="card-body ">
               <h5 class="card-title">Menu</h5>
               <p class="card-text">All the All Stars Sports Bars offer a fanastic all day menu. Full range of Deep Pan Pizza's 	 
   	  	                           We're open from 10am till late all week so you can drop by any time. We have fantastic facilities and serve hot and cold food at great prices.
@@ -157,17 +169,19 @@
                   </p>
             </div>
             <div class="card-footer">
-              <a href="Food.html" class="btn btn-primary">View Menu</a>
+              <a href="Food.html"> <button type="button" class="btn btn-blue-grey">Menu</button></a>
+    
             </div>
           </div>
-          <div class="card row no-gutters">
+          
+          <div class="card row no-gutters bg-dark ">
             <img class="card-img-top img-fluid" src="images/location-162102_1280.png" alt="Map Pin">
             <div class="card-body">
               <h5 class="card-title">Venues</h5>
               <p class="card-text">We have four locations across the South West. Click below to find your nearest venue for more information or to book.</p>
             </div>
             <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Venue</a>
+              <a href="Venues.html"><button type="button" class="btn btn-blue-grey">Find Venue </button></a>
             </div>
           </div>
         </div>
@@ -188,24 +202,26 @@
     <section id="API">
         
         
-    <div class ="row no-gutters">
+    <div class ="card-deck row no-gutters mt-4 mb-4">
         
         <div class="col-md" >
         
-            <h2>Next On</h2>
+          <div class="card bg-dark">
+            <div class="card-header">
+              <h2>What's On?</h2>
+            </div>
+            <div class="card-body fluid">
+              <h5 class="card-title">All live sports events are currently postponed due to COVID-19</h5>
+              <p class="card-text">To see the full list of upcoming live sports events, click below. </p>
+              <a href="LiveSports.html"><button type="button" class="btn btn-blue-grey">Live Sports</button></a>
                 
-            <p>All sport is currently suspended due to COVID-19 restrictions. Please return at a later date to see all live events.</p>
+                
+            </div>
+          </div>
         
         </div>
         
-        
-            <div class="col my-auto">
-        
-                                                   
-                <img src="images/football-3471371_1920.jpg" class="img-fluid" alt="live sports">
-        
-                
-                
+      
                
                                  
     </div>
@@ -217,10 +233,40 @@
     
     </section>
 
+    <div class="container-fluid px 0" id="bottomContainer">
+
+    <div class="card-deck row no-gutters" id="Cards">
+      <div class="card bg-dark">
+        <img class="card-img-top img-fluid " src="images/guy-playing-billiard-1967834_1920.jpg" alt="Pool Table">
+        <div class="card-body">
+          <h5 class="card-title">Discounts</h5>
+          <p class="card-text">If you're an Allstars Sports Bar regular why not take up our Annual Discount Card offer and receive all these great card-holder only offers.
+             Allstars Sports Bars discount cards can be used at any Allstars Venue.</p>
+        </div>
+        <div class="card-footer">
+          <a href="Discounts.html"><button type="button" class="btn btn-blue-grey">Discounts</button> </a> 
+        </div>
+      </div>
+      <div class="card row no-gutters bg-dark">
+        <img class="card-img-top img-fluid" src="images/pizza-2810589_1920.jpg" alt="Pizza">
+        <div class="card-body  ">
+          <h5 class="card-title">Cues and Accessories</h5>
+          <p class="card-text">Allstars offers a wide range of cues & Accessories.
+             Feel free to call in to any of our Allstars venues to see our range of cues and accessories.
+              </p>
+        </div>
+        <div class="card-footer">
+          <a href="Store.html"><button type="button" class="btn btn-blue-grey">View Products</button> </a> 
+        </div>
+      </div>
+
+    </div>
+    
+    </div>
     
 
+<section>
 
-    
   <!-- Footer -->
 <footer class="page-footer font-small mdb-color pt-4" id="main-footer">
 
@@ -339,7 +385,7 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <link rel="java" href="java.js">
+    
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
