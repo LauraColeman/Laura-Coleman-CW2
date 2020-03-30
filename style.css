@@ -7,7 +7,11 @@
 
 html{
     scroll-behavior:smooth;
+    font-size:100%;
 }
+
+
+img { max-width: 100%; height: auto; }
 
 body{
   background: linear-gradient(to top, #095c5a, #ede8e8); 
@@ -27,7 +31,7 @@ header{
 
 #main-footer{
 
-  background-color: #494e6b;
+  background-color: #192231;
   color: white;
   font-family: 'Oswald', 'sans-serif';
   padding:15px;
@@ -38,7 +42,7 @@ section{
     
  
   width:100%;
-  padding:30px 0;
+  padding:30px;
 }
 
 #mainNav {
@@ -142,20 +146,16 @@ font-size: large;
 }
 
 
-.jumbotron{
-
-  padding: 20px;
-  padding-top: 20px;
-  margin-bottom: 40px;
-  font-family: 'Oswald', sans-serif;
-}
-
-
 
 
 .jumbotron {
+
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
   position:relative;
   overflow:hidden;
+  background-size: 100% 100%;
+  color: white;
 
 }
 
@@ -164,7 +164,7 @@ font-size: large;
   z-index:2;
   
   background:rgba(0,0,0,0.2);
-  padding:2rem;
+  
   border:1px solid rgba(0,0,0,0.1);
   border-radius:3px;
 }
@@ -174,7 +174,7 @@ font-size: large;
   font-family: 'object-fit: cover;';
   position:absolute;
   top:0;
-  z-index:1;
+ 
   width:100%;
   height:100%;
   opacity:0.5;
@@ -186,3 +186,8 @@ img.blur {
   filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
 
 }
+
+
+
+
+

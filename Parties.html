@@ -16,7 +16,7 @@
     
 
     
-    <title>Venues</title>
+    <title>All Stars Sports Bars</title>
 </head>
 
 <body>
@@ -112,82 +112,109 @@
 <div class="jumbotron jumbotron-fluid bg-dark">
   
   <div class="jumbotron-background">
-    <img src="images/holidays-1283014_1920.jpg" class="img-fluid" style="width: auto;">
+    <img src="images/restaurant-2697945_1920.jpg">
   </div>
 
-  <div class="container text-white">
+  <div class="container ">
 
-    <h1 class="display-4">Select Your Nearest Location</h1>
-    <p class="lead">OPEN 10PM - LATE</p>
+    <h1 class="display-4">Parties</h1>
+    <p class="lead">Here at All Stars, we can offer private function rooms or bookings for groups. See below for venue specific information and booking.
+      <br>Or contact us for more information.
+    </p>
     <hr class="my-4">
     
-    
+    <a href="FAQ.html"><button type="button" id="jumbo" class="btn btn-grey">Contact Us </button></a>
 
   </div>
-  <!--End of Jumbotron -->
+  <!-- End of Jumbotron -->
   
  
 </div>
- <div class="container-fluid">
+
+<div class="container-fluid">
 
 
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
-  <div class="col mb-4">
-    <div class="card">
-      <a href="Bristol.html">
-      <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Bristol">
-      <div class="card-body">
-      </a>
-        <h5 class="card-title">Bristol</h5>
-        <p class="card-text">15-19 Queens Road<br>
-            BS8 1QE<br>01179 294 295
-             </p>
-      </div>
-    </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <a href="Exeter.html">
-        <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Exeter">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 row-cols-xl-5">
+    <div class="col mb-4">
+      <div class="card">
+        <a href="Bristol.html">
+        <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Bristol">
         <div class="card-body">
         </a>
-          <h5 class="card-title">Exeter</h5>
-          <p class="card-text">19-23 Sidwell Street<br>
-            EX4 6NN<br>01392 438 853
-            </p>
+          <h5 class="card-title">Bristol</h5>
+          <p class="card-text">15-19 Queens Road<br>
+              BS8 1QE<br>01179 294 295
+               </p>
         </div>
       </div>
-  </div>
-  <div class="col mb-4">
-    <div class="card">
-      <a href="Taunton.html">
-        <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Taunton">
-        <div class="card-body">
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <a href="Exeter.html">
+          <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Exeter">
+          <div class="card-body">
           </a>
-          <h5 class="card-title">Taunton</h5>
-          <p class="card-text">22 East Street
-             <br>TA1 3LP<br>01823 334 880 
-            </p>
+            <h5 class="card-title">Exeter</h5>
+            <p class="card-text">19-23 Sidwell Street<br>
+              EX4 6NN<br>01392 438 853
+              </p>
+          </div>
         </div>
-      </div>
     </div>
-  
-  <div class="col mb-4">
-    <div class="card">
-      <a href="Exeter.html">
-        <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Weston-Super-Mare">
-        <div class="card-body">
-        </a>
-          <h5 class="card-title">Weston-Super-Mare</h5>
-          <p class="card-text">12-16 Regent Street <br>
-            BS23 1SQ<br>01934 419 111</p>
+    <div class="col mb-4">
+      <div class="card">
+        <a href="Taunton.html">
+          <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Taunton">
+          <div class="card-body">
+            </a>
+            <h5 class="card-title">Taunton</h5>
+            <p class="card-text">22 East Street
+               <br>TA1 3LP<br>01823 334 880 
+              </p>
+          </div>
         </div>
       </div>
+    
+    <div class="col mb-4">
+      <div class="card">
+        <a href="Exeter.html">
+          <img src="https://dummyimage.com/600x400/000/fff.jpg" class="card-img-top" alt="Weston-Super-Mare">
+          <div class="card-body">
+          </a>
+            <h5 class="card-title">Weston-Super-Mare</h5>
+            <p class="card-text">12-16 Regent Street <br>
+              BS23 1SQ<br>01934 419 111</p>
+          </div>
+        </div>
+    </div>
   </div>
-</div>
-    </div>
+      </div>
+  
+  <section>
+  
 
-    <section>
+
+
+    <iframe id="sagendaFrame" src="https://www.sagenda.net/Frontend/Calendar/5e7a0c421e64db492c79988e" scrolling="no"
+     height="2050" style="width:100%" frameborder="0" allowtransparency="true" sandbox="allow-popups 
+     allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"></iframe>
+     <script>window.addEventListener("message", receiveMessage, false);function receiveMessage(event)
+     {if(event.data==="month"){document.getElementById("sagendaFrame").height = "1100";}
+     else{document.getElementById("sagendaFrame").height = "2050";}}</script>
+
+
+
+
+
+
+
+
+
+
+
+     </section>
+
+     <section>
 
       <!-- Footer - Guidance/outline from bootstrap.com.-->
     <footer class="page-footer font-small mdb-color pt-4" id="main-footer">
@@ -288,19 +315,17 @@
       
       </footer>
       <!-- Footer -->
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   
-  
-  
-  
-  
-  
-  
-      <!-- Optional JavaScript -->
-      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-      
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-  
-  </html>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>

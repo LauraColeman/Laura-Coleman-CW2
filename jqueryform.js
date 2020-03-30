@@ -1,10 +1,11 @@
 //Form validation.
+//General Outline and guidance from https://github.com/1000hz/bootstrap-validator, https://mdbootstrap.com/snippets/jquery/temp/1911742?action=prism_export, https://codepen.io/JacobLett/full/EPbZOr and https://github.com/bootstrapbay/contact-form/blob/master/index.php.
 
 $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
        
         formError();
-        submitMSG(false, "Did you fill in the form properly?");
+        submitMSG(false, "Have you missed something?");
     } else {
        
         event.preventDefault();
@@ -38,7 +39,7 @@ function submitForm(){
 
 function formSuccess(){
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    submitMSG(true, "Message Submitted. We will get back to you as soon as possible.")
 }
 
 function formError(){
