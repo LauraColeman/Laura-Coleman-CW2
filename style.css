@@ -118,15 +118,7 @@ font-size: large;
   
 }
 
-  #API {
-
-   height: auto;
-   width: auto;
-   padding: 15px;
-   padding-top: 20px;
-   
-
-  }
+ 
   
 
   #booking{
@@ -188,6 +180,11 @@ img.blur {
 }
 
 
+#widget{
 
+margin-right: 20px;
+
+
+}
 
 
